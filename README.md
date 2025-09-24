@@ -29,8 +29,6 @@ A luxurious and responsive hotel feedback website with modern design and profess
 
 ```
 hotel-feedback/
-├── .github/
-│   └── copilot-instructions.md    # Workspace instructions
 ├── index.html                     # Main HTML file
 ├── styles.css                     # Special CSS styling
 └── README.md                      # Project documentation
