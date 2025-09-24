@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Khadija Baaalla Palace</h1>
+                <p class="tagline">Excellence in Hospitality</p>
+            </div>
+            <nav class="nav">
+                <a href="#feedback">Feedback</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Share Your Experience</h2>
+                    <p>Your feedback helps us maintain our standard of excellence and continuously improve our services.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback-section" id="feedback">
+            <div class="container">
+                <div class="feedback-card">
+                    <h3>Guest Feedback Form</h3>
+                    <p class="form-description">Please take a moment to share your thoughts about your stay with us.</p>
+                    
+                    <form class="feedback-form">
+                        <div class="form-group">
+                            <label for="guestName">Full Name</label>
+                            <input type="text" id="guestName" name="guestName" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="roomNumber">Room Number</label>
+                                <input type="text" id="roomNumber" name="roomNumber">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="checkIn">Check-in Date</label>
+                                <input type="date" id="checkIn" name="checkIn">
+                            </div>
+                            <div class="form-group">
+                                <label for="checkOut">Check-out Date</label>
+                                <input type="date" id="checkOut" name="checkOut">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Overall Rating</label>
+                            <div class="rating-stars">
+                                <input type="radio" id="star5" name="rating" value="5">
+                                <label for="star5" class="star">★</label>
+                                <input type="radio" id="star4" name="rating" value="4">
+                                <label for="star4" class="star">★</label>
+                                <input type="radio" id="star3" name="rating" value="3">
+                                <label for="star3" class="star">★</label>
+                                <input type="radio" id="star2" name="rating" value="2">
+                                <label for="star2" class="star">★</label>
+                                <input type="radio" id="star1" name="rating" value="1">
+                                <label for="star1" class="star">★</label>
+                            </div>
+                        </div>
+
+                        <div class="services-rating">
+                            <h4>Service Ratings</h4>
+                            <div class="service-item">
+                                <label>Room Service</label>
+                                <select name="roomService">
+                                    <option value="">Select Rating</option>
+                                    <option value="5">Excellent</option>
+                                    <option value="4">Very Good</option>
+                                    <option value="3">Good</option>
+                                    <option value="2">Fair</option>
+                                    <option value="1">Poor</option>
+                                </select>
+                            </div>
+                            <div class="service-item">
+                                <label>Front Desk Service</label>
+                                <select name="frontDesk">
+                                    <option value="">Select Rating</option>
+                                    <option value="5">Excellent</option>
+                                    <option value="4">Very Good</option>
+                                    <option value="3">Good</option>
+                                    <option value="2">Fair</option>
+                                    <option value="1">Poor</option>
+                                </select>
+                            </div>
+                            <div class="service-item">
+                                <label>Housekeeping</label>
+                                <select name="housekeeping">
+                                    <option value="">Select Rating</option>
+                                    <option value="5">Excellent</option>
+                                    <option value="4">Very Good</option>
+                                    <option value="3">Good</option>
+                                    <option value="2">Fair</option>
+                                    <option value="1">Poor</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comments">Additional Comments</label>
+                            <textarea id="comments" name="comments" rows="6" placeholder="Please share any additional thoughts about your stay..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="recommend">
+                                <span class="checkmark"></span>
+                                I would recommend this hotel to others
+                            </label>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for special offers
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Submit Feedback</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Khadija Baaalla Palace</h4>
+                    <p>123 Luxury Avenue<br>
+                    City Center, ST 12345<br>
+                    Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Khadija Baaalla Palace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form validation and star rating functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('.feedback-form');
+            const stars = document.querySelectorAll('.rating-stars input[type="radio"]');
+            
+            // Star rating hover effect
+            stars.forEach(star => {
+                star.addEventListener('change', function() {
+                    const rating = this.value;
+                    const starLabels = document.querySelectorAll('.rating-stars .star');
+                    starLabels.forEach((label, index) => {
+                        if (index >= (5 - rating)) {
+                            label.classList.add('active');
+                        } else {
+                            label.classList.remove('active');
+                        }
+                    });
+                });
+            });
+
+            // Form submission
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your feedback! We appreciate your time.');
+            });
+        });
+    </script>
+</body>
+</html>
